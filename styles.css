@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black; /* Add black background to the container */
+}
+
+.icon-container {
+  margin-right: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.popup {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  max-width: 300px;
+}
+
+.notification,
+.break-alert {
+  margin-bottom: 15px;
+  display: none;
+}
+
+.message {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.dismiss-btn,
+.start-break-btn {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.dismiss-btn:hover,
+.start-break-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.settings {
+  margin-bottom: 15px;
+}
+
+.settings-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hydration-slider,
+.break-slider {
+  margin-bottom: 15px;
+}
+
+input[type='range'] {
+  width: 100%;
+}
+
+.options {
+  text-align: center;
+}
+
+.pause-btn,
+.snooze-btn {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pause-btn:hover,
+.snooze-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}

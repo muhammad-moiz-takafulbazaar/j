@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayHydrated Extension</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon-container">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3viL4KP5PHmAaFR10_7P-VD93sb0ZbfEqGpBqCBs&s"
+          alt="Water Droplet Icon"
+          class="icon"
+          width="40"
+          height="40"
+        />
+      </div>
+      <div class="popup">
+        <div class="notification">
+          <span class="message">Time to hydrate! Take a sip of water.</span>
+          <button class="dismiss-btn">Dismiss</button>
+        </div>
+        <div class="break-alert">
+          <span class="message"
+            >Time for a quick break! Stretch and relax for 5 minutes.</span
+          >
+          <button class="start-break-btn">Start Break</button>
+        </div>
+        <div class="settings">
+          <span class="settings-label">Customize:</span>
+          <div class="hydration-slider">
+            <label for="hydration-interval">Hydration Reminders:</label>
+            <input
+              type="range"
+              id="hydration-interval"
+              min="15"
+              max="120"
+              step="15"
+            />
+            <span id="hydration-value">60</span> min
+          </div>
+          <div class="break-slider">
+            <label for="break-interval">Break Alerts:</label>
+            <input type="range" id="break-interval" min="5" max="60" step="5" />
+            <span id="break-value">5</span> min
+          </div>
+        </div>
+        <div class="options">
+          <button class="pause-btn">Pause</button>
+          <button class="snooze-btn">Snooze</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayHydrated Extension</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon-container">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3viL4KP5PHmAaFR10_7P-VD93sb0ZbfEqGpBqCBs&s"
+          alt="Water Droplet Icon"
+          class="icon"
+          width="40"
+          height="40"
+        />
+      </div>
+      <div class="popup">
+        <div class="notification">
+          <span class="message">Time to hydrate! Take a sip of water.</span>
+          <button class="dismiss-btn">Dismiss</button>
+        </div>
+        <div class="break-alert">
+          <span class="message"
+            >Time for a quick break! Stretch and relax for 5 minutes.</span
+          >
+          <button class="start-break-btn">Start Break</button>
+        </div>
+        <div class="settings">
+          <span class="settings-label">Customize:</span>
+          <div class="hydration-slider">
+            <label for="hydration-interval">Hydration Reminders:</label>
+            <input
+              type="range"
+              id="hydration-interval"
+              min="15"
+              max="120"
+              step="15"
+              value="60"
+            />
+            <span id="hydration-value">60</span> min
+          </div>
+          <div class="break-slider">
+            <label for="break-interval">Break Alerts:</label>
+            <input
+              type="range"
+              id="break-interval"
+              min="5"
+              max="60"
+              step="5"
+              value="5"
+            />
+            <span id="break-value">5</span> min
+          </div>
+        </div>
+        <div class="options">
+          <button class="pause-btn">Pause</button>
+          <button class="snooze-btn">Snooze</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
